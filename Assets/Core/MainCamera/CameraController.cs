@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
     public Transform target; // The object to orbit around
     public float rotationSpeed = 5.0f; // The speed of rotation
     public float distance = 20.0f; // Distance from the target
-    public float lerpSpeed = 10.0f; // Speed of the lerp/smooth effect
+    public float lerpSpeed = 1.0f; // Speed of the lerp/smooth effect
 
     // Clamping angles for Y rotation
     public float minYAngle = 10.0f;

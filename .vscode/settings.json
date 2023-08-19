@@ -53,5 +53,8 @@
         "Temp/":true
     },
     "dotnet.defaultSolution": "Botaneko.sln",
-    "omnisharp.useModernNet": false
+    "omnisharp.useModernNet": false,
+    "conventionalCommits.scopes": [
+        "Camera"
+    ]
 }
