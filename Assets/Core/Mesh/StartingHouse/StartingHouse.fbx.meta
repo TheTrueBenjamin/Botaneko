@@ -3,7 +3,22 @@ guid: 58171c63383070447974cf616270529e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 6d8cebecc85abe845a68f9e3c7fd8d98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 6ac5fdc1e8e7c5749b4433265a5c7817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 6ac5fdc1e8e7c5749b4433265a5c7817, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -35,7 +50,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 6
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -66,7 +81,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -88,7 +103,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 6
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
